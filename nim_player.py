@@ -1,8 +1,5 @@
 class NimPlayer:
-    def __init__(self, name):
-        self.name = name
-
-    def play(self, board):
+       def play(self, board):
         # Calculate the Nim-sum
         nim_sum = 0
         for count in board:
